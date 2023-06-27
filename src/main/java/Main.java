@@ -1,6 +1,7 @@
 import org.example.Cliente;
 import org.example.ClienteController;
 import org.example.ClienteLoginController;
+import org.example.ClienteService;
 
 import java.util.Scanner;
 
@@ -22,9 +23,9 @@ public class Main {
 
         System.out.println("LOGIN");
         System.out.println("Digite sua senha: ");
-        String senhaCadastrada = entrada.next();
 
-        clienteController.login(senhaCadastrada);
+        clienteController.login(entrada.next());
+
     }
 
 }

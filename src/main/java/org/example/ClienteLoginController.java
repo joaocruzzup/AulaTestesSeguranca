@@ -13,10 +13,11 @@ public class ClienteLoginController {
 
         if (clienteService.login(senha)){
             System.out.println("Bem-vindo! :D");
+            clienteService.mostrarSenhas();
         }else {
             System.out.println("Sua senha está incorreta! :(");
         }
-
     }
+
 
 }

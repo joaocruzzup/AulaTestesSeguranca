@@ -11,7 +11,6 @@ public class Cliente {
 
     //Constructors
 
-
     public Cliente(String email, String senha) {
         this.email = email;
         this.senha = senha;
